@@ -640,7 +640,7 @@ class _DesktopTabState extends State<DesktopTab>
                         ),
                         const SizedBox(width: 8.0),
                         const Text(
-                          'YYSY 1.4.3',
+                          '四院内网 1.4.3',
                           style: TextStyle(
                             fontSize: 13,
                             fontWeight: FontWeight.w500,
@@ -649,7 +649,7 @@ class _DesktopTabState extends State<DesktopTab>
                         Offstage(
                             offstage: !showTitle,
                             child: const Text(
-                              "YYSY 1.4.3",
+                              "四院内网 1.4.3",
                               style: TextStyle(fontSize: 13),
                             ).marginOnly(left: 2))
                       ]).marginOnly(
