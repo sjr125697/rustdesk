@@ -638,6 +638,14 @@ class _DesktopTabState extends State<DesktopTab>
                           offstage: !showLogo,
                           child: loadIcon(16),
                         ),
+                        const SizedBox(width: 8.0),
+                        const Text(
+                          'YYSY',
+                          style: TextStyle(
+                            fontSize: 13,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        ),
                         Offstage(
                             offstage: !showTitle,
                             child: const Text(
