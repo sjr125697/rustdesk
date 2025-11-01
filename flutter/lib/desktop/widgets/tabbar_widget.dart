@@ -649,7 +649,7 @@ class _DesktopTabState extends State<DesktopTab>
                         Offstage(
                             offstage: !showTitle,
                             child: const Text(
-                              "RustDesk",
+                              "YYSY 1.4.3",
                               style: TextStyle(fontSize: 13),
                             ).marginOnly(left: 2))
                       ]).marginOnly(
